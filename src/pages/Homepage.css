@@ -1,0 +1,82 @@
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(rgba(110, 174, 243, 0.85), rgba(146, 209, 209, 0.85)),
+    url("https://images.unsplash.com/photo-1507679799987-c73779587ccf");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 100px;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-container input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #ccc;
+}
+
+.mic-btn {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff5722;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+}
+
+.mic-btn:hover {
+  background-color: #e64a19;
+}
+
+/* PANEL */
+.panel-container {
+  margin: -40px auto 20px;
+  width: 90%;
+  max-width: 1000px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* RESULTS */
+.results-section {
+  padding: 30px;
+}
+
+.results-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* OPTIONAL: Improve ProviderList cards */
+.result-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+}

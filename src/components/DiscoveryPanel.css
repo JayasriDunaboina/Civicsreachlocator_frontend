@@ -1,0 +1,90 @@
+.discovery-panel {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.panel-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--text);
+}
+
+.location-prompt {
+  text-align: center;
+}
+
+.location-prompt p {
+  margin: 0 0 1rem 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.location-prompt.error p {
+  color: #f4212e;
+}
+
+.location-prompt .muted {
+  color: var(--text-muted);
+}
+
+.btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dim);
+}
+
+.btn-secondary {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.filter-group label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.filter-group select {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--bg);
+  color: var(--text);
+  min-width: 120px;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
